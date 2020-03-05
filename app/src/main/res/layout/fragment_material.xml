@@ -12,17 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/material_recycler"
-        android:scrollbars="vertical"
-        >
-    </androidx.recyclerview.widget.RecyclerView>
+        android:scrollbars="vertical" />
 
 </androidx.core.widget.NestedScrollView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:src="@drawable/ic_add_white_24dp"
-        android:layout_gravity="end|top"
-        android:onClick="onClickMaterialAdd"/>
+
+
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

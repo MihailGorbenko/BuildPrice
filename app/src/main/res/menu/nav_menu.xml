@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:checkableBehavior="single">
+       <item
+           android:id="@+id/nav_price"
+           android:icon="@android:drawable/ic_menu_sort_by_size"
+           android:title="@string/nav_price" />
+       <item
+           android:id="@+id/nav_calc"
+           android:icon="@android:drawable/ic_input_add"
+           android:title="@string/nav_calc"/>
+       <item
+           android:id="@+id/nav_notes"
+           android:icon="@android:drawable/ic_menu_edit"
+           android:title="@string/nav_note"/>
+
+   </group>
+
+</menu>

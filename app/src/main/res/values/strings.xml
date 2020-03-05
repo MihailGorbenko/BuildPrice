@@ -3,4 +3,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open_drawer">Open navigation</string>
+    <string name="nav_close_drawer">Close navigation</string>
+    <string name="nav_price">Прайс</string>
+    <string name="nav_calc">Калькулятор</string>
+    <string name="nav_note">Заметки</string>
 </resources>

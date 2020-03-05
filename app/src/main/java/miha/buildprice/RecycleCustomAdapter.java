@@ -40,8 +40,10 @@ import java.util.ArrayList;
         CardView cardView = holder.cardView;
          TextView title_text = (TextView)cardView.findViewById(R.id.card_title);
          title_text.setText(titles[position]);
-         ImageView imageView = cardView.findViewById(R.id.card_image);
-         imageView.setImageResource(android.R.drawable.ic_menu_edit);
+         TextView textLogo = cardView.findViewById(R.id.card_logo);
+         StringBuilder sb = new StringBuilder();
+         sb.append(titles[position].charAt(0));
+         textLogo.setText(sb.toString().toUpperCase());
 
          cardView.setOnClickListener(new View.OnClickListener() {
              @Override

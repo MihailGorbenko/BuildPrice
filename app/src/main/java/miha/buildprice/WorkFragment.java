@@ -29,11 +29,11 @@ public class WorkFragment extends Fragment {
 
        View view = inflater.inflate(R.layout.fragment_work,container,false);
         RecyclerView recyclerView = view.findViewById(R.id.work_recycler);
-        String[] titles = {"first","second","third","first","second","third","first","second","third","first","second"};
+        String[] titles = {"Ремонт","Площадь","Матвеевка","Бузника 10","second","third","first","second","third","first","second"};
 
         RecycleCustomAdapter adapter = new RecycleCustomAdapter(titles);
         recyclerView.setAdapter(adapter);
-        GridLayoutManager gm = new GridLayoutManager(getActivity(),2);
+        GridLayoutManager gm = new GridLayoutManager(getActivity(),1);
         recyclerView.setLayoutManager(gm);
 
         return view;
