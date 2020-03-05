@@ -1,21 +1,14 @@
 package miha.buildprice;
 
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class MaterialFragment extends Fragment {
 
     public MaterialFragment() {
@@ -33,8 +26,8 @@ public class MaterialFragment extends Fragment {
 
         RecycleCustomAdapter adapter = new RecycleCustomAdapter(titles);
         recyclerView.setAdapter(adapter);
-        GridLayoutManager gm = new GridLayoutManager(getActivity(),2);
-        recyclerView.setLayoutManager(gm);
+        LinearLayoutManager lm = new LinearLayoutManager(getActivity());
+        recyclerView.setLayoutManager(lm);
 
         return view;
     }

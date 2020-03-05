@@ -2,7 +2,6 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    xmlns:app="http://schemas.android.com /apk/res-auto"
     xmlns:app1="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card_view"
     android:layout_margin="6dp"
@@ -17,15 +16,14 @@
             android:id="@+id/card_logo"
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:gravity="center"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/circle_drawable"
             android:textColor="#F3F3F3"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="15dp"/>
+            android:textSize="15sp"/>
         <TextView
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_width="match_parent"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
